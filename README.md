@@ -1,5 +1,5 @@
 # Structure-arrays
-Structures class used to get an array of inputs in to a table
+Structures class to get an array of inputs in to a table
 
 ## Exercise 1: Create a table 
 Get inputs from the user to create a 'Marks of students' table of 5 records with field names studentNo, Grade, Subject 1, Subject 2, Average.
@@ -20,6 +20,5 @@ Implement a function to calculate the average marks of the two subjects of each 
 
 ```cpp
 void averageMarks(int mrk1, int mrk2, float &t_avg)
-=======
-Structure class to get an array of inputs in to a table
->>>>>>> origin/main
+```
+
