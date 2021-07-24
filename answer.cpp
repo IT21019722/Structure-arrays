@@ -24,11 +24,16 @@ int main()
     cout<<"Enter subject 2 mark: ";
     cin>>Marks[x].mark2;
 
+    //call the function 
     averageMarks(Marks[x].mark1, Marks[x].mark2, Marks[x].avg);
 
+    cout<<"Student Num\tGrade\tSubject 1\tSubject 2\tAverage"<<endl;
+    for(int x=0; x<5; x++)
+    {
+      cout<<Marks[x].studentNo<<"\t"<<Marks[x].grade<<"\t"<<,Marks[x].mark1<<"\t"<<Marks[x].mark2<<endl;
+    }
+
   }
-
-
   return 0;
 }
 
