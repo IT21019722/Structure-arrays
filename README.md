@@ -1,5 +1,4 @@
 # Structure-arrays
-<<<<<<< HEAD
 Structures class used to get an array of inputs in to a table
 
 ## Exercise 1: Create a table 
