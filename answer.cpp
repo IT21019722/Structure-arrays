@@ -13,17 +13,18 @@ struct Marks{
 //get the input from 5 students;
 int main()
 {
-  int sub1, sub2, grd, average, stdNo;
   for(int x=0; x<5; x++)
   {
     cout<<"Enter the student number: ";
-    cin>>stdNo;
+    cin>>Marks[x].studentNo;
     cout<<"Enter the class grade: ";
-    cin>>grd;
+    cin>>Marks[x].grade;
     cout<<"Enter subject 1 mark: ";
-    cin>>sub1;
+    cin>>Marks[x].mark1;
     cout<<"Enter subject 2 mark: ";
-    cin>>sub2;
+    cin>>Marks[x].mark2;
+
+    averageMarks(Marks[x].mark1, Marks[x].mark2, Marks[x].avg);
 
   }
 
@@ -33,5 +34,5 @@ int main()
 
 void averageMarks(int mrk1, int mrk2, float &t_avg)
 {
-
+  t_avg = (mrk1 + mrk2)/2.0;
 }
