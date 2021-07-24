@@ -1,4 +1,5 @@
 # Structure-arrays
+<<<<<<< HEAD
 Structures class used to get an array of inputs in to a table
 
 ## Exercise 1: Create a table 
@@ -20,3 +21,6 @@ Implement a function to calculate the average marks of the two subjects of each 
 
 ```cpp
 void averageMarks(int mrk1, int mrk2, float &t_avg)
+=======
+Structure class to get an array of inputs in to a table
+>>>>>>> origin/main
